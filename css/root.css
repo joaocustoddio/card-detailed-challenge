@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit&display=swap');
+@import url("./reset.css");
+@import url("./styles.css");
+
+:root {
+    --reaction: #ff5757;
+    --memory: #ffb01f;
+    --verbal: #00bd91;
+    --visual: #1125d4;
+    --background-degrade: linear-gradient(15deg, #2e2be9, #7857ff);
+    --background-degrade-circulo: linear-gradient(175deg , #4e21ca, #2e2be9);
+    --fonte-principal: 'Hanken Grotesk', sans-serif;
+    --branco: #ffffffff;
+    --azul-cinza: #ebf1ff;
+    --lilás: #c8c7ff;
+    --azul-escuro: #303b5a;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
