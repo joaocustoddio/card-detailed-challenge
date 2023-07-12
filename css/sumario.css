@@ -1,0 +1,79 @@
+.cardSumario {
+    background: var(--branco);
+    color: var(--azul-escuro);
+    justify-content: space-evenly;
+}
+
+.tituloSumario {
+    color: var(--azul-escuro);
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.sumarioLista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sumarioItem {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item1 {
+    background-color: var(--reactionRgba);
+}
+
+.itemTitulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reaction {
+    color: var(--reaction);
+}
+
+
+.item2 {
+    background-color: var(--memoryRgba);
+}
+
+.memory {
+    color: var(--memory);
+}
+
+.item3 {
+    background-color: var(--verbalRgba);
+}
+
+.verbal{
+    color:var(--verbal)
+}
+
+.item4{
+    background-color: var(--visualRgba);
+}   
+
+.visual{
+   color: var(--visual);
+}
+
+.botao{
+    text-decoration: none;
+    background-color: var(--azul-escuro);
+    padding: 15px 0;
+    border-radius: 24px;
+    color: var(--azul-cinza);
+    text-align: center;
+
+}
+
+.botao:hover{
+    background: var(--background-degrade);
+}

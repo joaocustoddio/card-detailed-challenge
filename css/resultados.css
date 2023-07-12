@@ -1,16 +1,9 @@
 .cardResultado{
     background: var(--background-degrade);
-    width: 350px;
-    height: 500px;
     color: var(--branco);
-    border-radius: 24px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 60px;
-    padding: 20px;
-
 }
 
 .circuloResultado{
@@ -26,17 +19,18 @@
 
 .tituloCard{
     color: var(--lilás);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 .numeroGrande{
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: bold;
 }
 .numeroPequeno{
-    font-size: 15px;
-    color: var(--lilás);
-    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--cinza-escuro);
+    font-weight: bolder;
+    
 }
 
 .textosBaixo{
@@ -46,13 +40,29 @@
     gap: 22px;
 }
 .subtituloCard{
-    font-size: 28px;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 
 .textoCard{
     color: var(--lilás);
     text-align: center;
-    font-size: 17px;
+    font-size: 1.1rem;
     padding: 10px;
+}
+
+@media (max-width:719px) {
+    .cardResultado{
+        height: 350px !important;
+        gap: 30px;
+        padding-top: 25px;
+        width: unset !important;
+        border-top-left-radius: unset !important;
+        border-top-right-radius: unset !important;
+    }
+
+    .circuloResultado{
+        width: 150px;
+        height: 150px;
+    }
 }
